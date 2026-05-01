@@ -21,37 +21,37 @@ export const APPS: AppDef[] = [
   {
     name: 'Crew Roster',
     slug: 'crew-roster',
-    oneLiner: 'Rostering that gets sorted - no more WhatsApp chains.',
+    oneLiner: 'Digital timesheet for your crew - sorted.',
     features: ['Roster scheduling', 'GPS clock-in/out', 'Award compliance'],
-    icon: '📅',
+    icon: '⏱',
     theme: 'orange',
     ctaType: 'demo',
     links: {
       web: 'https://roster.crewcircle.co',
     },
     description:
-       'Sort your crew in minutes - drag-drop rostering, GPS clock-in, and award compliance all in one. Built for cafés, tradies, and shops that hate paperwork.',
+      'Your digital timesheet - drag-drop rostering, GPS clock-in, and award compliance. Built for tradies and cafés that want job-site ready tools.',
   },
   {
     name: 'Smart GL',
     slug: 'smart-gl',
-    oneLiner: 'Your books sorted - GST, BAS, and AI insights.',
+    oneLiner: 'Shoebox accounting? Sorted.',
     features: ['AI categorisation', 'GST/BAS reports', 'Ledger tracking'],
-    icon: '📒',
+    icon: '📎',
     theme: 'blue',
     ctaType: 'visit',
     links: {
       web: 'https://smartgl.crewcircle.co',
     },
     description:
-             'Stuff your receipts in, and boom - AI does the books. GST, BAS, and profit insights served fresh. No more shoebox accounting.',
+      'Stuff receipts in, AI sorts the books. GST, BAS, and profit insights - no shoebox needed. Built for tradies who\'d rather be on the tools.',
   },
   {
     name: 'Card Snap',
     slug: 'card-snap',
-    oneLiner: 'Snap business cards, saved to contacts.',
+    oneLiner: 'Snap biz cards on site - sorted.',
     features: ['ML Kit OCR', 'Contact save', 'Card history'],
-    icon: '📸',
+    icon: '📷',
     theme: 'green',
     ctaType: 'download',
     links: {
@@ -59,37 +59,37 @@ export const APPS: AppDef[] = [
       playStore: '#android',
     },
     description:
-              'Point, shoot, done. Snap a biz card, and it\'s straight into your contacts - no typing, no fuss. Perfect for tradies on the go.',
+      'Point, shoot, done. Snap a biz card at the job site - straight to contacts. No typing, no fuss. Perfect for tradies on the go.',
   },
   {
     name: 'XeroAssist',
     slug: 'xero-assist',
-    oneLiner: 'Xero helpers for AU/NZ bookkeepers - sorted.',
+    oneLiner: 'Your Xero spanner - sorted.',
     features: ['ABN validation', 'BAS tracker', 'ATO rates'],
-    icon: '🤖',
+    icon: '🔧',
     theme: 'purple',
     ctaType: 'download',
     links: {
       chromeStore: '#chrome',
     },
     description:
-      'Your Xero sidekick: validates ABNs, tracks BAS dues, and lets you flip between tenants. Built for bookkeepers who want Xero without the headache.',
+      'Your Xero spanner: validates ABNs, tracks BAS dues, and flips between tenants. Built for bookkeepers who want Xero without the headache.',
   },
 ];
 
 
 export const DEMO_CONFIG = {
   heading: 'Try Crew Roster Demo',
-  subheading: 'Explore all features with a pre-configured demo organization for',
-  orgName: 'The Daily Grind Cafe',
-  orgLocation: 'Surry Hills, Sydney',
+  subheading: 'Explore all features with a pre-configured demo for',
+  orgName: 'Syd Plumbing Bros',
+  orgLocation: 'Parramatta, Sydney',
   users: [
-    { role: 'Owner', name: 'Maria Papadopoulos', color: 'orange' },
-    { role: 'Manager', name: 'Jake Thompson', color: 'blue' },
-    { role: 'Employee', name: 'Sarah Chen', color: 'green' },
-    { role: 'Employee', name: 'Emma Wilson', color: 'purple' },
+    { role: 'Owner', name: 'Mick O\'Brien', color: 'orange' },
+    { role: 'Foreman', name: 'Jake Thompson', color: 'blue' },
+    { role: 'Apprentice', name: 'Sarah Chen', color: 'green' },
+    { role: 'Apprentice', name: 'Emma Wilson', color: 'purple' },
   ],
-  note: 'Part of the CrewCircle suite of apps for Australian small businesses.',
+  note: 'Part of the CrewCircle suite - high-viz tools for Aussie tradies.',
 };
 
 
@@ -119,10 +119,10 @@ export const FOOTER_LINKS = {
 
 
 export const AUSSIE_TERMS = {
-   tagline: "Software that sorts your small biz - no dramas.",
-   subtitle: "We build tools for Aussie cafes, tradies, shops & healthcare teams.",
-  cta: "Ready to sort your business?",
-  exploreBtn: "Explore Our Apps",
-  viewAllBtn: "See All Apps",
+  tagline: "Tools that sort your biz - no dramas.",
+  subtitle: "High-viz tools for tradies, cafes, shops & healthcare teams.",
+  cta: "Ready to sort your biz?",
+  exploreBtn: "Grab the Tools",
+  viewAllBtn: "View All Tools",
   getStartedBtn: "Get Started",
 };

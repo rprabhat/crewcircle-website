@@ -11,41 +11,41 @@ export default function Hero() {
         </div>
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight tracking-tight">
-          Software that sorts your small biz:{' '}
+          Tools that sort your biz:{' '}
           <span className="text-primary">no dramas.</span>
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          We build tools for Aussie cafés, tradies, shops & healthcare teams.
+          High-viz tools for tradies, cafés, and shops across Australia.
           <br />
-          From rostering to bookkeeping: all sorted.
+          From the ute to the job site: sorted.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="#apps"
-            className="px-6 py-3 bg-primary text-primary-foreground rounded-lg text-base font-semibold hover:bg-primary/90 transition-colors"
-          >
-            Explore Our Apps
-            <span className="ml-2">↓</span>
-          </Link>
-          <Link
-            href="/demo"
-            className="px-6 py-3 border-2 border-input text-foreground rounded-lg text-base font-semibold hover:border-primary hover:text-primary transition-colors"
-          >
-            Try Crew Roster Demo
-          </Link>
+            <Link
+              href="#apps"
+              className="px-6 py-3 bg-primary text-primary-foreground rounded-lg text-base font-semibold hover:bg-primary/90 transition-colors"
+            >
+              Grab the Tools
+              <span className="ml-2">↓</span>
+            </Link>
+            <Link
+              href="/demo"
+              className="px-6 py-3 border-2 border-input text-foreground rounded-lg text-base font-semibold hover:border-primary hover:text-primary transition-colors"
+            >
+              Try it on the Job
+            </Link>
         </div>
 
         <div className="mt-12 flex flex-wrap justify-center gap-3">
-          {['Cafés', 'Tradies', 'Healthcare', 'Retail'].map((industry) => (
-            <span
-              key={industry}
-              className="px-4 py-1.5 bg-muted text-muted-foreground rounded-full text-sm font-medium"
-            >
-              {industry}
-            </span>
-          ))}
+            {['Tradies', 'Cafés', 'Shops', 'Healthcare'].map((industry) => (
+              <span
+                key={industry}
+                className="px-4 py-1.5 bg-muted text-muted-foreground rounded-full text-sm font-medium"
+              >
+                {industry}
+              </span>
+            ))}
         </div>
 
         <div className="mt-6 text-sm text-muted-foreground">
