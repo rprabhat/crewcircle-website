@@ -40,12 +40,6 @@ export default function Hero() {
             >
               Get it
             </Link>
-            <Link
-              href="/demo"
-              className="px-8 py-3 border-2 border-foreground text-foreground rounded-md text-lg font-bold hover:border-primary hover:text-primary transition-colors"
-            >
-              Try it
-            </Link>
         </div>
 
         <div className="mt-8 text-sm text-muted-foreground">

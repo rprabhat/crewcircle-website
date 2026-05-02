@@ -69,24 +69,9 @@ export const APPS: AppDef[] = [
     links: {
       chromeStore: '#chrome',
     },
-    description: 'Xero spanner for your crew. That\'s it.',
+      description: 'Xero spanner for your crew. That\'s it.',
   },
 ];
-
-
-export const DEMO_CONFIG = {
-  heading: 'Try Demo',
-  subheading: 'Pre-configured demo:',
-  orgName: 'Sydney Plumbing',
-  orgLocation: 'Sydney',
-  users: [
-    { role: 'Owner', name: 'Mick', color: 'orange' },
-    { role: 'Foreman', name: 'Jake', color: 'blue' },
-    { role: 'Apprentice', name: 'Sarah', color: 'green' },
-    { role: 'Apprentice', name: 'Emma', color: 'purple' },
-  ],
-  note: 'Tools for tradies. That\'s it.',
-};
 
 
 export const NAV_ITEMS = [
