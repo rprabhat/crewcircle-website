@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata = {
   title: 'CardSnap - Business Cards That Sort Themselves',
@@ -115,12 +114,12 @@ export default function CardSnap() {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">What They Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
-              { quote: 'Finally! No more typing business cards manually. Sorted in seconds.', author: 'Mick O\'Brien, Syd Plumbing Bros' },
+              { quote: 'Finally! No more typing business cards manually. Sorted in seconds.', author: 'Mick O&apos;Brien, Syd Plumbing Bros' },
               { quote: 'I was skeptical, but CardSnap actually works. No dramas.', author: 'Sarah Chen, Café Oasis' },
               { quote: 'Scan, save, done. Just like it should be.', author: 'Dave Wilson, Precision Electric' },
             ].map((testimonial, idx) => (
               <div key={idx} className="bg-card border border-border rounded-lg p-6">
-                <p className="text-foreground mb-4">"{testimonial.quote}"</p>
+                <p className="text-foreground mb-4">&ldquo;{testimonial.quote}&rdquo;</p>
                 <p className="text-muted-foreground text-sm">— {testimonial.author}</p>
               </div>
             ))}

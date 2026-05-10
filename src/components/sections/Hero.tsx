@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight tracking-tight">
-          Sorted.
+          <span className="sr-only">CrewCircle — </span>Sorted.
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
 
         <div className="mt-8 text-sm text-muted-foreground">
-          Tradies. That's it.
+          Tradies. That&apos;s it.
         </div>
 
         <div className="mt-12 flex flex-wrap justify-center gap-3">
